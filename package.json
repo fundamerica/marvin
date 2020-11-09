@@ -1,0 +1,13 @@
+{
+  "main": "app.js",
+  "scripts": {
+    "ngrok": "ngrok start marvin",
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@slack/bolt": "^2.4.1",
+    "dotenv": "^8.2.0"
+  }
+}
